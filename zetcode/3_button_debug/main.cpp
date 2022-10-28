@@ -1,3 +1,3 @@
-#include "main.h"
+#include "MyApp.h"
 
 wxIMPLEMENT_APP(MyApp);
