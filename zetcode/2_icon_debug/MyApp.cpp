@@ -4,7 +4,7 @@
 bool MyApp::OnInit()
 {
     MyFrame *my_frame = new MyFrame(wxT("Frame with Icon"));
-    my_frame->Show();
+    my_frame->Show(true);
 
     return true;
 };
