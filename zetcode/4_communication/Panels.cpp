@@ -7,7 +7,7 @@ LeftPanel::LeftPanel(wxPanel *parent)
     count = 0;
     m_parent = parent;
     m_plus = new wxButton(this, ID_PLUS, wxT("+"), wxPoint(10, 10));
-    m_minus = new wxButton(this, ID_MINUS, wxT("-"), wxPoint(10, 10));
+    m_minus = new wxButton(this, ID_MINUS, wxT("-"), wxPoint(10, 60));
     Connect(ID_PLUS, wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler(LeftPanel::OnPlus));
     Connect(ID_MINUS, wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler(LeftPanel::OnMinus));
 }
