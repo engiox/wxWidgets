@@ -1,12 +1,11 @@
-project(MyApp)
-
 cmake_minimum_required(VERSION 3.24)
 
-set(wxWidgets_ROOT_DIR "D:/dev/wxWidgets")
-#set(wxWidgets_LIB_DIR "D:/dev/wxWidgets/lib/gcc_lib")
+project(SkeletonApp)
 
+set(wxWidgets_ROOT_DIR "D:/Dev/wxWidgets")
 find_package(wxWidgets REQUIRED COMPONENTS net core base)
 include(${wxWidgets_USE_FILE})
-add_executable(myapp hello.cpp)
-target_link_libraries(myapp ${wxWidgets_LIBRARIES})
 
+add_executable(skelapp ./skel.cpp)
+
+target_link_libraries(skelapp ${wxWidgets_LIBRARIES})
