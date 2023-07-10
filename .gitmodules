@@ -1,3 +1,0 @@
-[submodule "tutorials/pragmaticlinux.com/myapp"]
-	path = tutorials/pragmaticlinux.com/myapp
-	url = https://github.com/pragmaticlinuxblog/cmake_wxwidgets.git
