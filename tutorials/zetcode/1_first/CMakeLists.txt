@@ -1,6 +1,6 @@
-project(MyApp)
-
 cmake_minimum_required(VERSION 3.24)
+
+project(MyApp)
 
 set(wxWidgets_ROOT_DIR "D:/dev/wxWidgets")
 
