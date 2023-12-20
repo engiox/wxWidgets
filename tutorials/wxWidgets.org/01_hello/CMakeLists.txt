@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.24)
 
 project(MyApp)
 
+message("** Build type : "${CMAKE_BUILD_TYPE})
+
 set(wxWidgets_ROOT_DIR "D:/Dev/wxWidgets")
 set(wxWidgets_LIB_DIR "D:/Dev/wxWidgets/lib/gcc_dll")
 set(wxWidgets_CONFIGURATION "mswu")
